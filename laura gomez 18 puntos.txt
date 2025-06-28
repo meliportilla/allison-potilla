@@ -6,7 +6,7 @@ package laurag;
 
 /**
  *
- * @author fredy
+ * @author lauraG
  */
 public class LauraG {
       

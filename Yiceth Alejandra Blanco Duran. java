@@ -1,0 +1,160 @@
+        public void nombreEdad(){
+        int edad=15;
+        System.out.println("1. IMPRIMIR TU NOMBRE Y EDAD");
+        String nombre="Yiceth Alejandra Blanco Duran";
+        System.out.println("nombre ="+ nombre+");   
+        System.out.println("edad=" + edad+");
+        }       
+
+        public void suma(){
+        int a=5;
+        int b= 2;
+        System.out.println("2. CALCULAR LA SUMA DE DOS NUMEROS: ");
+        System.out.println("la respuesta es: ");
+        System.out.println(a+b +");
+        }
+
+        public void resta(){
+        int a=3;
+        int b= 10;
+        System.out.println("3. RESTAR DOS NUMEROS: );
+        System.out.println("la respuesta es: ");
+        System.out.println(a-b +");
+        }
+
+        public void multiplicar(){
+        int a=15;
+        int b= 18;
+        System.out.println("4. MULTIPLICAR DOS NUMEROS: );
+        System.out.println("la respuesta es: ");
+        System.out.println(a*b +");
+                }
+        public void dividir(){
+        int a=7;
+        int b= 8;
+
+        System.out.println("5. DIVIDIR DOS NUMEROS: ");
+        System.out.println("la respuesta es: ");
+        System.out.println(a/b +");
+        }
+
+      public void calcularCuadrado(){
+         int a=15;
+         int c=(a*a) ;  
+          System.out.println("6. CALCULAR EL CUADRADO DE UN NUMERO: ");
+          System.out.println("la respuesta es: ");
+          System.out.println(c +");
+      }
+      public void convercion(){
+         int a=20;
+         int b=11;
+         int c=7;
+         int d=34;
+         int f=(a*b/c+d);
+         System.out.println("7. CONVERTIR GRADOS CELSIUS A FAHRENHEIT: \a");
+         System.out.println("la respuesta es: ");
+         System.out.println(f+"\a");
+
+}
+
+      public void calcular(){
+        int a=15;
+        int b= 3;
+        int c=((a+b)*2);
+
+        System.out.println("8. CALCULAR EL PERIMETRO DE UN RECTANGULO: \t");
+        System.out.println("la respuesta es: ");
+        System.out.println(t+"\a");
+        }
+
+        public void calcularArea(){
+        int c=18;
+        double l=3.1416;
+        double m=((c*c)*l);
+        System.out.println("9. CALCULAR EL AREA DE UN CIRCULO: \t");
+        System.out.println("la respuesta es: ");
+        System.out.println( m +"\t");
+        }
+
+        public void convercionAños(){
+        int a= 5;
+        int b=365;
+        System.out.println("10. CONVERTIR AÑOS A DIAS: \t");
+        System.out.println("la respuesta es: ");
+        System.out.println(a*b+"\t");
+}
+
+        public void calcularDoble(){
+        int a=16;
+        int b=(a+a);
+        int c=(a+a+a);
+        System.out.println("11. CALCULAR EL DOBLE Y EL TRIPLE DE UN NUMERO: \t");
+        System.out.println("1 la respuesta es: ");
+        System.out.println(b+"\t");
+        System.out.println("2 la respuesta es: ");
+        System.out.println(c+"\t");
+}
+        public void convercionKilometros(){
+         int a=16;
+        int kilometros=a;
+        int metros=(kilometros*1000);
+        int centimetros= (kilometros * 100000);
+        System.out.println("12. CONVERTIR KILOMETROS A METROS Y CENTIMENTROS: \t ");
+        System.out.println("1. "+ kilometros+" kilometros en metros es: "+ metros +" mts"+"\t");
+
+        System.out.println("2. "+ kilometros+" kilometros en centimetros es: "+ centimetros +" cm"+"\t");
+}
+        public void calcularPerimetro(){                       
+        int a= 6;                  
+        int lado=a;
+        int area=(a*a);
+        System.out.println("13. CALCULAR EL AREA Y EL PERIMETRO DE UN CUADRADO \t ");
+        System.out.println("el lado es:" +a+"\t ");
+        System.out.println("el area del cuadrado es: " + area+"\t");
+        System.out.println("el perimetro del cuadrdo:"+ lado* 4 +"\t");
+}
+         public void calcularVolumen(){      
+        int a= 10;
+        System.out.println("14. CALCULAR EL VOLUMEN DE UN CUBO\t");           
+        System.out.println("el lado del cubo es: "+ a +"\n");
+        System.out.println("el volumen es:" + Math.pow(a,3)+"\t");
+}
+
+         public void calculaEsfera(){           
+        double radio= 5;
+        System.out.println("15. CALCULAR EL VOLUMEN DE UNA ESFERA\t");
+        String volumen= ((Math.pow(radio,3)3.1416)(4/3)+"\t");
+        System.out.println("el radio de la esfera es: " + radio +"\t");
+        System.out.println("el volumen es: "+ volumen);
+}
+        public void sumarNumerosnaturales(){
+        int a=(1+2+3);
+        System.out.println("16. SUMAR LOS TRES PRIMEROS NUMEROS NATURALES: \t");
+        System.out.println("el resultado es: ");
+        System.out.println(a+"\t");
+}
+        public void calcularDescuento(){        
+        double a=100;
+        double porcentaje= 50;
+        System.out.print("17. CALCULAR EL DESCUENYO APLICADO EN UNA COMPRA(PRECIO Y EL PORCENTAJE DE DESCUENTO): \t");                        
+        System.out.println("valor del articulo:"+ a +"\t");
+        System.out.println("el descuento del articulo es: "+ porcentaje +"\t");
+
+        System.out.println("DESCUENTO APLICADO:"+(a-(a*(porcentaje/100))+"\t");
+}
+
+        public void propina() {
+
+        double valor_Total=400;
+        double porcentaje_Propina= 10;
+        System.out.println("18. CALCULAR LA PROPINA A DEJAR EN UN RESTAURANTE(TOTAL Y PORCENTAJE DESEADO): \t");
+        System.out.println("valor Total:"+ valor_Total +" pesos \t");
+        System.out.println("El porcentaje de la propina es: "+ porcentaje_Propina +" %\t");
+        System.out.println("Valor de la Propina:"+(valor_Total*(porcentaje_Propina/100))+" pesos\t");
+        }
+
+        public static void main(String[] args) {
+
+
+        }
+
